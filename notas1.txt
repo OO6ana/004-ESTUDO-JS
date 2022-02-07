@@ -1,0 +1,75 @@
+//1 - Crie uma condição que exiba uma mensagem no console se a idade for maior que 18
+
+let idade = 20
+    if(idade >= 18){
+        console.log("voce é maior que 18")
+    }
+
+//2 - Crie uma condição que exiba uma mensagem no console se você for maior de idade E a condição humana seja true
+
+let humano = true
+if(idade > 18 && humano == true){
+    console.log("voce é humano e maior de idade")
+}
+
+//3 - Criar uma condição que exiba uma mensagem no console se você fizer aniversário em Janeiro OU Dezembro
+
+let mes = "fevereiro"
+    if(mes == "janeiro" || mes == "dezembro"){
+        console.log("voce é de janeiro ou dezembro, parabens")
+    }else{
+        console.log("que pena, voce não pode entrar na festa")
+    }
+
+//*** Exercícios bônus
+//4 - Criar uma condição que exiba uma mensagem no console se seu nome começar com a letra R
+
+//5 - Criar uma condição que exiba uma mensagem no console se seu sobrenome tenha mais de 6 letras OU seu nome começar com a letra E
+
+
+----------------------------------------------------------------------------------------
+
+Estrutura do For
+for(let i=1; i<=100;i+=2){
+console.log(i)
+}
+
+
+Estrutura do While
+i=1
+while (i<100){
+console.log("i+=2")
+}
+-----------------------------------------------------------------------------------------
+
+/* FOR */
+for(let i = 1; i<=100; i+=2){
+    console.log(i)
+}
+
+/* WHILE */
+let i = 1
+
+while (i <= 100 ){
+    console.log(i)
+    i+=2
+}
+
+----------------------------------------------------------------------------------------
+let contador = 1
+
+while(100 >= contador){
+  console.log(contador)
+  contador +=2
+}
+--------------------------------------------------------------------------------------
+let contador = 1
+while(100 >= contador){
+    console.log(contador)
+    contador =+2 
+
+
+ for(let i = 1; i <= 100; i+=2){
+     console.log(i)
+ }
+
